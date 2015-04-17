@@ -1,0 +1,135 @@
+/* configurando field set dos cadastros */
+/* configurando field produtos*/
+fieldset.produto{
+    padding-top:10px;
+    border:1px solid #666;
+    border-radius:8px;
+    width: 510px;
+    height: 165px;
+}
+
+/* configurando fieldset */
+fieldset.cliente{
+    padding-top:10px;
+    border:1px solid #666;
+    border-radius:8px;
+    width: 510px;
+    height: 265px;
+}
+fieldset.fornecedor{
+    padding-top:10px;
+    border:1px solid #666;
+    border-radius:8px;
+    width: 510px;
+    height: 165px;
+}
+fieldset.represent{
+    padding-top:10px;
+    border:1px solid #666;
+    border-radius:8px;
+    width: 510px;
+    height: 105px;
+}
+fieldset.usuario{
+    padding-top:10px;
+    border:1px solid #666;
+    border-radius:8px;
+    width: 510px;
+    height: 115px;
+    margin-bottom: 10px;
+}
+legend {
+    padding: 5px 10px ;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+legend + * {
+    clear:both;
+}
+
+/* fim da configuração do fieldset */
+
+/* configurando as tabelas */
+table
+{
+    position:center;
+    left:19px;
+    margin-right:auto;
+    margin-left:auto;
+    border-right: 1px;
+    width: 690px;
+    text-align: center
+    
+}
+td{
+    border-bottom: 1px solid #4a4c5a;
+    border-right: 1px solid #4a4c5a;
+    /*text-align:justify;*/
+    padding-right:10px;
+    margin:0;
+    }
+tr.houver{
+    color:#333;
+}
+
+/* fim configuração das tabelas */
+
+/* configurando os inputs */
+
+input
+{
+    position:absolute;
+    left:110px;
+    margin-top:2px;
+    width:340px;
+}
+textarea
+{
+    position:absolute;
+    left:110px;
+    margin-top:2px;
+}
+input.botao
+{
+    position:relative;
+    left:20px;
+    margin-top:2px;
+    width:145px;
+}
+input.confirma
+{
+    position:absolute;
+    left:55px;
+    margin-top:5px;
+    width:300px;
+    /*background-color: blue;*/
+}
+
+select
+{
+    position:absolute;
+    left:110px;
+    margin-top:2px;
+    width:345px;
+}
+
+label{
+    width:85px;
+    float:left;
+    font-size: 14px;
+    font-weight:bold;
+    }
+br{
+    clear: left;
+    }
+img{
+    border:0;
+    }
+    
+#submit{
+    width:100px;
+    cursor:pointer;
+    margin-top:5px;
+    margin-left:120px;
+    }
+/* fim da configurando os inputs */

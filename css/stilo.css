@@ -1,0 +1,60 @@
+/* montando estilo para o menu dropdown */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    }
+ul li {
+    position: relative;
+    }
+li ul {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    display: none;
+    background: #ccc;
+    }
+ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+li:hover ul {
+	display: block;
+}
+ul li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+    background: #ccc;
+}
+
+/* configurando o corpo da pagina */
+#topo {
+	border:1px solid #c0c0c0;
+	height: 45px;
+	width: 987px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 5px;
+	/*background-image: url(../imagens/fundo.png);*/
+}
+#corpo{
+	height: auto;
+	width: 987px;
+	margin: 0 auto;
+	padding: 0 0 5px;
+}
+#coluna1{
+	height: auto;
+	width: 150px;
+	text-align: center;
+	float: left;
+}
+#postagem{
+	height: auto;
+	width: 827px;
+	float: left;
+	margin-left: 5px;
+}

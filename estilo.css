@@ -1,0 +1,151 @@
+<style type="text/css">
+/* montando estilo para o menu dropdown
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    }
+ul li {
+    position: relative;
+    }
+li ul {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    display: none;
+    background: #ccc;
+    }
+ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+li:hover ul {
+	display: block;
+}
+ul li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+    background: #ccc;
+}
+
+ configurando o corpo da pagina */
+.margen {
+				margin: 1px 0px 1px 0px;
+			}
+.box{
+    width:380px;
+    height:auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    border:1px solid #ccc;
+    background-color:#f6f6f6;
+    }
+
+#topo{
+    height: 80px;
+    padding: 5px;
+    color:#666;
+    text-align:left;
+    margin: 0 auto;
+    font: bold 32px 'Trebuchet MS';
+    background-color:#f6f6f6;
+    background-repeat:no-repeat;
+    border-radius:5px ;
+}
+#identifica{
+	float: right;
+	width: 250px;
+    height: 56px;
+	font: bold 12px 'Trebuchet MS';
+	text-align:left;
+}
+#identifica > img {
+    float: right;
+    border: none;
+    padding: 0;
+    top: auto;
+    bottom: auto;
+}
+#menu{
+    padding: 2px;
+    border-radius:5px ;
+    width:100%;
+    height:45px;
+    overflow:auto;
+    font: bold 8px 'Trebuchet MS';
+    background-color:#f6f6f6;
+    background-repeat:no-repeat;
+}
+#menu > img {
+    border: 2px solid #cdc9bf;
+    color: #f6f6f6;
+    border-radius: 10px;
+    moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#corpo{
+	width:100%;
+	height:530px;
+	overflow:auto;
+}
+#direita{
+    /*border:1px solid #c0c0c0;*/
+	border-radius:5px ;
+	height: 528px;
+	width: 20%;
+	text-align: center;
+	float: right;
+	font: bold 12px 'Trebuchet MS';
+    background-color:#f6f6f6;
+    background-repeat:no-repeat;
+}
+#frame{
+    border-radius:5px ;
+    height: 528px;
+    width: 80%;
+    float: right;
+    font: bold 8px 'Trebuchet MS';
+    background-color:#f6f6f6;
+}
+#rodape {
+	padding: 2px;
+	margin: 0 auto;
+	color: #666;
+	text-align: center;
+	font-size:  bold 'Trebuchet MS';
+	background-color:#f6f6f6;
+    background-repeat:no-repeat;
+    border-radius:5px ;
+}
+#informa {
+	padding: 5px; 
+	font: bold 8px 'Trebuchet MS';
+    background-color:#f6f6f6;
+    border:2px solid #ccc;
+    float: center;
+}
+#estatistica{
+    width: 95%;
+    height: 450px;
+    background-color:#f6f6f6;
+}
+
+/*testando uns parangole da web ewfeitos interresantes para o site*/
+img:hover {
+    border: 2px solid #ccff00;
+    border-radius: 10px;
+    moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+p:hover {
+    border: 1px solid #cdc9bf;
+    color: rgb(102, 102, 102);
+    border-radius: 5px;
+    moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+</style>

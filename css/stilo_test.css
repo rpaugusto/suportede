@@ -1,0 +1,108 @@
+<style type="text/css">
+/* montando estilo para o menu dropdown
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    }
+ul li {
+    position: relative;
+    }
+li ul {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    display: none;
+    background: #ccc;
+    }
+ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+li:hover ul {
+	display: block;
+}
+ul li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+    background: #ccc;
+}
+
+ configurando o corpo da pagina */
+.margen {
+				margin: 1px 0px 1px 0px;
+			}
+.box{
+    width:380px;
+    height:auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    border:1px solid #ccc;
+    background-color:#f6f6f6;
+    }
+
+#topo{
+    padding: 25px;
+    color:#666;
+    text-align:left;
+    margin: 0 auto;
+    font: bold 32px 'Trebuchet MS';
+    background-color:#f6f6f6;
+    background-repeat:no-repeat;
+    border:1px solid #ccc;
+}
+#identifica{
+	height: auto;
+	float: right;
+	width: 250px;
+	margin-left: 5px;
+	font: bold 12px 'Trebuchet MS';
+	text-align:left;
+}
+#corpo{
+	width:100%;
+	height:580px;
+	overflow:auto;
+}
+#direita{
+	border:1px solid #c0c0c0;
+	height: 578px;
+	width: 250px;
+	text-align: center;
+	float: right;
+	font: bold 8px 'Trebuchet MS';
+    background-color:#f6f6f6;
+    background-repeat:no-repeat;
+}
+#rodape {
+	padding: 10px;
+	margin: 0 auto;
+	color: #666;
+	text-align: center;
+	font-size:  bold 10px 'Trebuchet MS';
+	background-color:#f6f6f6;
+    background-repeat:no-repeat;
+    border:1px solid #ccc;
+}
+#informa {
+	padding: 5px; 
+	font: bold 8px 'Trebuchet MS';
+    background-color:#f6f6a8;
+    border:2px solid #ccc;
+    float: center:;
+}
+
+/*testando uns parangole da web ewfeitos interresantes para o site*/
+input[type="text"] + label {
+    color: #00a8c3;
+    line-height: 20px;
+    padding: 2px;
+    display: block;
+    float: left;
+    width: 160px;
+}
+</style>
